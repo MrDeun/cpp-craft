@@ -14,7 +14,10 @@ add_requires("jsoncpp")
 target("cpp-craft")
     set_kind("binary")
     add_files("src/*.cpp")
-    -- add_files("src/*.cppm")
+    add_files("src/protocol/*.cppm")
+    add_files("src/net/*.cppm")
+    add_files("src/crypto/*.cppm")
+    add_files("src/world/*.cppm")
 
     add_packages("asio","mbedtls","zlib","jsoncpp")
 

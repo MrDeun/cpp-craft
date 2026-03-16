@@ -1,6 +1,11 @@
 [
 {
   "directory": "/home/kora/minecraft/cpp-craft",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++23", "-isystem", "/home/kora/.xmake/packages/a/asio/1.36.0/6993b26c8f0d4558b334de677efa52e9/include", "-isystem", "/home/kora/.xmake/packages/m/mbedtls/v3.6.1/b0ff9764683c4870b7249cf6aa055f73/include", "-fmodules", "-D_GLIBCXX_USE_CXX11_ABI=1", "-DNDEBUG", "-fmodule-mapper=/tmp/.xmake1000/260314/bd0b72ca52a5d418e3f3b7760dd7e5c1/main.cpp.mapper.txt", "-o", "build/.objs/cpp-craft/linux/x86_64/release/src/main.cpp.o", "src/main.cpp"],
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++23", "-I", "/home/kora/.xmake/packages/a/asio/1.36.0/6993b26c8f0d4558b334de677efa52e9/include", "-I", "/home/kora/.xmake/packages/m/mbedtls/v3.6.1/b0ff9764683c4870b7249cf6aa055f73/include", "-fmodules", "-D_GLIBCXX_USE_CXX11_ABI=1", "-DNDEBUG", "-fmodule-mapper=/tmp/.xmake1000/260314/cf06aff38177b83f64a61457ad7efd73/std.cc.mapper.txt", "-x", "c++", "-fmodules", "-o", "build/.objs/cpp-craft/linux/x86_64/release/usr/include/c++/15/bits/std.cc.o", "/usr/include/c++/15/bits/std.cc"],
+  "file": "/usr/include/c++/15/bits/std.cc"
+},
+{
+  "directory": "/home/kora/minecraft/cpp-craft",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++23", "-I", "/home/kora/.xmake/packages/a/asio/1.36.0/6993b26c8f0d4558b334de677efa52e9/include", "-I", "/home/kora/.xmake/packages/m/mbedtls/v3.6.1/b0ff9764683c4870b7249cf6aa055f73/include", "-fmodules", "-D_GLIBCXX_USE_CXX11_ABI=1", "-DNDEBUG", "-fmodule-mapper=/tmp/.xmake1000/260314/bd0b72ca52a5d418e3f3b7760dd7e5c1/main.cpp.mapper.txt", "-o", "build/.objs/cpp-craft/linux/x86_64/release/src/main.cpp.o", "src/main.cpp"],
   "file": "src/main.cpp"
 }]
