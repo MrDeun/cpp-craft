@@ -6,13 +6,13 @@ export module mc.protocol.buffer;
 
 export class Buffer {
 public:
-  void writeByte(uint8_t byte);
-  void writeVarInt(int32_t value);
-  void writeString(std::string_view);
+  void writeByte(uint8_t byte){}
+  void writeVarInt(int32_t value){}
+  void writeString(std::string_view sv){}
 
-  uint8_t readByte();
-  uint8_t readVarInt();
-  std::string readString();
+  uint8_t readByte(){}
+  int32_t readVarInt(){}
+  std::string readString(){}
 
   protected:
   std::vector<uint8_t> buffer;
